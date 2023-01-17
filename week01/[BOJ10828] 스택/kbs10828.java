@@ -9,7 +9,9 @@ public class kbs10828 {
         
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); //선언
         int n = Integer.parseInt(br.readLine()); //Int
+
         for (int i = 0; i < n; i++) {
+            
             StringTokenizer st = new StringTokenizer(br.readLine());
             String order = st.nextToken();
             if(st.hasMoreTokens()){ //push
