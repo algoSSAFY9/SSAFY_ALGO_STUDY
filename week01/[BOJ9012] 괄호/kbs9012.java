@@ -22,6 +22,7 @@ public class kbs9012 {
                     else stack.pop();            
                 }
             }
+            
             if(!isVPS||!stack.isEmpty()) System.out.println("NO");
             else System.out.println("YES");
         }
