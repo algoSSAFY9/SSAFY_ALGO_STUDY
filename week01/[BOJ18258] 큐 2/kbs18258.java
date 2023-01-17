@@ -39,6 +39,7 @@ public class kbs18258 {
             }
             
         }
-    System.out.println(sb);
+    
+        System.out.println(sb);
     }
 }
