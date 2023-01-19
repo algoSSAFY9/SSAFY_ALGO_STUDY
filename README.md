@@ -28,5 +28,5 @@ git commit -m "Upload: 본인 이름 / 날짜 / [문제제목]"
 
 |Index| 기간 | 알고리즘 분류 | 문제 링크 
 |--|-------------------| -----| --------- |
-|1  | 2023.01.16 ~ 2023.01.29 | 자료구조 |  [자료구조1](https://github.com/tony9402/baekjoon/tree/main/data_structure), [자료구조2](https://github.com/tony9402/baekjoon/tree/main/data_structure2)
-
+|1  | 2023.01.16 ~ 2023.01.22 | 자료구조 |  [자료구조 1](https://github.com/tony9402/baekjoon/tree/main/data_structure)
+|2  | 2023.01.23 ~ 2023.01.29 | 자료구조 |  [자료구조 2](https://github.com/tony9402/baekjoon/tree/main/data_structure2)
