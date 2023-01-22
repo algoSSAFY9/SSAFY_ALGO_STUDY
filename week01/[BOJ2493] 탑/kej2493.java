@@ -14,7 +14,6 @@ public class kej2493 {
 		Stack<int[]> stack = new Stack<>();
 		StringBuilder sb = new StringBuilder();
 		int check = 0;
-		int result = 0;
 		String s = br.readLine();
 		StringTokenizer st = new StringTokenizer(s);
 		
