@@ -21,7 +21,6 @@ public class hjw2075 {
 		}
 		
 		Arrays.sort(arr);
-		
 		System.out.println(arr[n*n-n]);
 	}
 
