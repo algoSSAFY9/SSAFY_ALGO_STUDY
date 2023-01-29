@@ -1,0 +1,34 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.StringTokenizer;
+
+public class hjy14425 {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
+        
+        HashMap<String, Integer> map = new HashMap<>();
+        
+        // 각  문자열을 Key로 입력
+        for (int i = 0; i < n; i++) {
+            map.put(br.readLine(), 1);	
+        }
+        
+        
+        int cnt = 0;
+        // 맵에서 각 값들을 포함한 경우의 수 확인 
+        for (int i = 0; i < m; i++) {
+            if (map.get(br.readLine()) != null) 
+            	cnt++;
+        }
+        System.out.print(cnt);
+
+	}
+
+}
