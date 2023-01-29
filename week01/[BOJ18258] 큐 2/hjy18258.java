@@ -23,7 +23,7 @@ public class hjy18258 {
 			// push
 			if(str.contains("push")) { 
 				String spt[] = str.split(" ");	// 공백을 기준으로 분할
-				queue.add(Integer.parseInt(spt[1]));	// 정수값 push
+				queue.offer(Integer.parseInt(spt[1]));	// 정수값 push
 			}
 			// pop
 			else if(str.contains("pop")) { 
