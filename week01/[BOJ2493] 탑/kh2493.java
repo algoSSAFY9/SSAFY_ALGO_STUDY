@@ -1,7 +1,6 @@
 import java.io.*;
-import java.util.Stack;
+import java.util.ArrayDeque;
 import java.util.StringTokenizer;
-import java.util.TreeMap;
 
 public class kh2493 {
 
@@ -11,33 +10,20 @@ public class kh2493 {
         StringTokenizer st;
 
         int N = Integer.parseInt(br.readLine());
-
-        Stack<Integer> stack = new Stack<>();
+        ArrayDeque<Integer> stack = new ArrayDeque<>();
+        ArrayDeque<Integer> idx = new ArrayDeque<>();
         st = new StringTokenizer(br.readLine());
-        for (int i = 0; i < N; i++) {
-            stack.push(Integer.parseInt(st.nextToken()));
-        }
-
-        int[] ans = new int[N];
-        TreeMap<Integer, Integer> tm = new TreeMap<>();
-        while (!stack.isEmpty()) {
-            int h = stack.pop();
-            Integer key;
-            while ((key = tm.lowerKey(h)) != null) {
-                ans[tm.get(key)] = N;
-                tm.remove(key);
+        for (int i = 1; i <= N; i++) {
+            int h = Integer.parseInt(st.nextToken());
+            while (!stack.isEmpty() && stack.peek() < h) {
+                stack.pop();
+                idx.pop();
             }
+            bw.write((stack.isEmpty() ? 0 : idx.peek()) + " ");
 
-            tm.put(h, --N);
+            stack.push(h);
+            idx.push(i);
         }
-        for (int idx : tm.values()) {
-            ans[idx] = 0;
-        }
-
-        for (int a : ans) {
-            bw.write(a + " ");
-        }
-
         bw.flush();
     }
 }
