@@ -1,13 +1,5 @@
-package algorithm_study.week1;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Deque;
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
 
 public class BS9_2493 {
 
@@ -23,7 +15,6 @@ public class BS9_2493 {
 			int h = Integer.parseInt(st.nextToken());
 			
 			while(!stack.isEmpty()) {
-				
 				if(stack.peekLast()[1]<h) stack.pollLast();
 				else {
 					sb.append(stack.peekLast()[0]+" ");
