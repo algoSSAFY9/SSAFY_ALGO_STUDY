@@ -9,7 +9,7 @@
 <br/>
 
 ###  👨‍👩‍👧‍👦 Contributors
-| [곽보선](https://github.com/bosunKwak) | [구배성](https://github.com/deerKBS) | [권은정](https://github.com/jjeoungS2) | [김현](https://github.com/k97h07o11) | [황재영](https://github.com/JJaeki)| [황주원](https://github.com/woneee99)|
+| [곽보선](https://github.com/0214kbs) | [구배성](https://github.com/deerKBS) | [권은정](https://github.com/jjeoungS2) | [김현](https://github.com/k97h07o11) | [황재영](https://github.com/JJaeki)| [황주원](https://github.com/woneee99)|
 |:-------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:| 
 
 <br/>
