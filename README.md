@@ -3,30 +3,30 @@
 
 <br/>
 
-###  📚 스터디 진행 방식
+### 📚 스터디 진행 방식
 - 일주일에 1회(월) 오프라인 회의로 코드 리뷰 진행
 
 <br/>
 
-###  👨‍👩‍👧‍👦 Contributors
+### 👨‍👩‍👧‍👦 Contributors
 | [곽보선](https://github.com/0214kbs) | [구배성](https://github.com/deerKBS) | [권은정](https://github.com/jjeoungS2) | [김현](https://github.com/k97h07o11) | [황재영](https://github.com/JJaeki)| [황주원](https://github.com/woneee99)|
 |:-------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:| 
 
 <br/>
 
- ### 📕 Commit Convention
+### 📕 Commit Convention
 ```
 git commit -m "Upload: 본인 이름 / 날짜 / [문제제목] / 시간"
 
 [예시] Upload: 김싸피 / 01.26 / [등굣길] / 128ms
 ```
 
-
 <br/>
 
 ### 📅 일정표
 
-|Index| 기간 | 알고리즘 분류 | 문제 링크 
-|--|-------------------| -----| --------- |
-|1  | 2023.01.16 ~ 2023.01.22 | 자료구조 |  [자료구조 1](https://github.com/tony9402/baekjoon/tree/main/data_structure)
-|2  | 2023.01.23 ~ 2023.01.29 | 자료구조 |  [자료구조 2](https://github.com/tony9402/baekjoon/tree/main/data_structure2)
+| Index | 기간 | 알고리즘 분류 | 문제 링크 |
+| :---: | :--------------------: | :----------: | :----------: |
+| 1 | 2023.01.16 ~ 2023.01.22 | 자료구조 | [자료구조 1](https://github.com/tony9402/baekjoon/tree/main/data_structure)
+| 2 | 2023.01.23 ~ 2023.01.29 | 자료구조 | [자료구조 2](https://github.com/tony9402/baekjoon/tree/main/data_structure2)
+| 3 | 2023.02.06 ~ 2023.02.12 | 구현, 시뮬레이션 | [구현](https://github.com/tony9402/baekjoon/tree/main/implementation), [시뮬레이션](https://github.com/tony9402/baekjoon/tree/main/simulation)
