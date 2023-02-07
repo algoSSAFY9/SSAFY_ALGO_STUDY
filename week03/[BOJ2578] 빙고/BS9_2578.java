@@ -36,7 +36,7 @@ public class BS9_2578 {
 					if(++RightToL==5) bingGo_cnt++;
 				}
 
-				if(bingGo_cnt>=3) {
+				if(bingGo_cnt>=3) { //전체 빙고 합 확인
 					System.out.println(5*i+j+1);
 					return;
 				}
