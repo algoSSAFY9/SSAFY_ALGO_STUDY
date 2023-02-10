@@ -25,7 +25,7 @@ public class hjw2578 {
 					for(int m=0; m<5; m++) {
 						if(arr[k][m] == x) {
 							arr[k][m] = 0;
-							if(bingo(k, m) >= 3) {
+							if(cnt > 4 && bingo(k, m) >= 3) {
 								System.out.println(cnt);
 								return;
 							}
