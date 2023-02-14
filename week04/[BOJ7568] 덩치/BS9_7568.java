@@ -3,7 +3,6 @@ package algorithm_study.브루트포스;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-
 /*
  * 덩치
  * (키, 몸무게) -> (x, y)
