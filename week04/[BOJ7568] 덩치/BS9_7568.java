@@ -11,7 +11,6 @@ import java.util.StringTokenizer;
  * 우위를 정할 수 없으면 공동 등수.
  */
 public class BS9_7568 {
-
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
