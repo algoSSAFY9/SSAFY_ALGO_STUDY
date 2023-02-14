@@ -30,5 +30,4 @@ public class hjw2798 {
 		}
 		System.out.println(max);
 	}
-
 }
