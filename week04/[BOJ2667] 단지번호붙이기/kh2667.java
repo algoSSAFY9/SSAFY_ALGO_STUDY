@@ -1,7 +1,5 @@
 import java.io.*;
-import java.util.ArrayDeque;
-import java.util.PriorityQueue;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class kh2667 {
 
