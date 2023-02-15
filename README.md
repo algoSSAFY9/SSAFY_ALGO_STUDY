@@ -9,8 +9,8 @@
 <br/>
 
 ### 👨‍👩‍👧‍👦 Contributors
-| [곽보선](https://github.com/0214kbs) | [구배성](https://github.com/deerKBS) | [권은정](https://github.com/jjeoungS2) | [김현](https://github.com/k97h07o11) | [황재영](https://github.com/JJaeki)| [황주원](https://github.com/woneee99)|
-|:-------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:|:-------------------:| 
+| [곽보선](https://github.com/0214kbs) | [구배성](https://github.com/deerKBS) | [권은정](https://github.com/jjeoungS2) | [김현](https://github.com/k97h07o11) | [황재영](https://github.com/JJaeki) | [황주원](https://github.com/woneee99) |
+| :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
 
 <br/>
 
@@ -27,6 +27,7 @@ git commit -m "Upload: 본인 이름 / 날짜 / [문제제목] / 시간"
 
 | Index | 기간 | 알고리즘 분류 | 문제 링크 |
 | :---: | :--------------------: | :----------: | :----------: |
-| 1 | 2023.01.16 ~ 2023.01.22 | 자료구조 | [자료구조 1](https://github.com/tony9402/baekjoon/tree/main/data_structure)
-| 2 | 2023.01.23 ~ 2023.01.29 | 자료구조 | [자료구조 2](https://github.com/tony9402/baekjoon/tree/main/data_structure2)
-| 3 | 2023.02.06 ~ 2023.02.12 | 구현, 시뮬레이션 | [구현](https://github.com/tony9402/baekjoon/tree/main/implementation), [시뮬레이션](https://github.com/tony9402/baekjoon/tree/main/simulation)
+| 1 | 2023.01.16 ~ 2023.01.22 | 자료구조 | [자료구조 1](https://github.com/tony9402/baekjoon/tree/main/data_structure) |
+| 2 | 2023.01.23 ~ 2023.01.29 | 자료구조 | [자료구조 2](https://github.com/tony9402/baekjoon/tree/main/data_structure2) |
+| 3 | 2023.02.06 ~ 2023.02.12 | 구현, 시뮬레이션 | [구현](https://github.com/tony9402/baekjoon/tree/main/implementation), [시뮬레이션](https://github.com/tony9402/baekjoon/tree/main/simulation) |
+| 4 | 2023.02.13 ~ 2023.02.19 | 브루트포스, DFS, BFS | [브루트포스](https://www.acmicpc.net/step/22), [DFS, BFS](https://www.acmicpc.net/step/24) |
