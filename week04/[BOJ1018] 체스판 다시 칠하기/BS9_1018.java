@@ -14,7 +14,6 @@ import java.util.StringTokenizer;
  * 즉, 다시 칠해야하는 정사각형의 개수가 가장 작은 8*8구간을 찾아야함.
  */
 public class BS9_1018 {
-
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
