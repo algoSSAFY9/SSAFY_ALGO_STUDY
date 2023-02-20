@@ -19,7 +19,6 @@ public class BS9_1992 {
 		}
 		
 		dfs(0, 0, N);
-		
 		System.out.println(sb);
 	}
 
