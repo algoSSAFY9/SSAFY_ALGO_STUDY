@@ -26,7 +26,6 @@ public class BS9_9663 {
 			count++;
 			return;
 		}
-		
 		for(int j=0; j<N; j++) {
 			if(select[0][n]!=0 || select[1][j]!=0 || select[2][N-n+j-1]!=0 || select[3][n+j]!=0) {
 				continue;
