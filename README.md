@@ -31,4 +31,4 @@ git commit -m "Upload: 본인 이름 / 날짜 / [문제제목] / 시간"
 | 2 | 2023.01.23 ~ 2023.01.29 | 자료구조 | [자료구조 2](https://github.com/tony9402/baekjoon/tree/main/data_structure2) |
 | 3 | 2023.02.06 ~ 2023.02.12 | 구현, 시뮬레이션 | [구현](https://github.com/tony9402/baekjoon/tree/main/implementation), [시뮬레이션](https://github.com/tony9402/baekjoon/tree/main/simulation) |
 | 4 | 2023.02.13 ~ 2023.02.19 | 브루트포스, DFS, BFS | [브루트포스](https://www.acmicpc.net/step/22), [DFS, BFS](https://www.acmicpc.net/step/24) |
-| 4 | 2023.02.20 ~ 2023.02.26 | 분할 정복, 백트래킹 | [분할정복](https://www.acmicpc.net/step/20), [백트래킹](https://www.acmicpc.net/step/34) |
+| 5 | 2023.02.20 ~ 2023.02.26 | 분할 정복, 백트래킹 | [분할정복](https://www.acmicpc.net/step/20), [백트래킹](https://www.acmicpc.net/step/34) |
