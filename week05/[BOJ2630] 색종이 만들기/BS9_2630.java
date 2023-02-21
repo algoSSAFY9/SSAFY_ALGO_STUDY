@@ -22,7 +22,6 @@ public class BS9_2630 {
 				paper[i][j]=Integer.parseInt(st.nextToken());
 			}
 		}
-		
 		dfs(0, 0, N);
 		
 		System.out.println(white);
