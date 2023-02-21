@@ -18,7 +18,6 @@ public class BS9_9663 {
 		
 		dfs(0, cnt);
 		
-		
 		System.out.println(count);
 	}
 
