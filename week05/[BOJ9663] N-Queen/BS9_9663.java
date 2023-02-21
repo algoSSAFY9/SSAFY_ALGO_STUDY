@@ -13,10 +13,11 @@ public class BS9_9663 {
 		int[][] cnt = new int[4][];
 		cnt[0] = new int[N];
 		cnt[1] = new int[N];
-		cnt[2] = new int[2*N-1]; // ↗  ↘
-		cnt[3] = new int[2*N-1];
+		cnt[2] = new int[2*N-1]; // ↗  
+		cnt[3] = new int[2*N-1]; // ↘
 		
 		dfs(0, cnt);
+		
 		
 		System.out.println(count);
 	}
