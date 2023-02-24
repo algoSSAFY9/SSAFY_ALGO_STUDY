@@ -57,7 +57,6 @@ public class BS9_2580 {
             System.out.println(sb);
 			System.exit(0);
 		}
-
 		int[] a = blank.get(cnt);
         	int k = (a[0]/3)*3+a[1]/3;
 		for(int j=1; j<=9; j++) {
