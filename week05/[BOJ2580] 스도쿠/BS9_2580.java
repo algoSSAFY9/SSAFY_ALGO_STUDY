@@ -3,6 +3,7 @@ package algoStudy.백트래킹;
 import java.io.*;
 import java.util.*;
 
+// 빈 숫자가 적은 행 | 열 | 영역 순으로 탐색하면 더 빠를까?
 public class BS9_2580 {
 
 	static int[][] row,col,block, map;
@@ -41,7 +42,7 @@ public class BS9_2580 {
 		dfs(0);
 	}
 	
-	static void dfs(int cnt) {
+	static boolean dfs(int cnt) {
 		if(cnt==COUNT) {
 			int t=0;
 			for(int[] a : blank) {
@@ -55,22 +56,18 @@ public class BS9_2580 {
 				sb.append("\n");
 			}
             System.out.println(sb);
-			System.exit(0);
+			return true;
 		}
 		int[] a = blank.get(cnt);
-        	int k = (a[0]/3)*3+a[1]/3;
+        int k = (a[0]/3)*3+a[1]/3;
 		for(int j=1; j<=9; j++) {
 			if(row[a[0]][j]+col[a[1]][j]+block[k][j]==0) {
-				row[a[0]][j]=1;
-				col[a[1]][j]=1;
-				block[k][j]=1;
+				row[a[0]][j]=col[a[1]][j]=block[k][j]=1;
 				ans[cnt]=j;
-				dfs(cnt+1);
-				row[a[0]][j]=0;
-				col[a[1]][j]=0;
-				block[k][j]=0;
+				if(dfs(cnt+1)) return true;
+				row[a[0]][j]=col[a[1]][j]=block[k][j]=0;
 			}
 		}
-		return;
+		return false;
 	}
 }
