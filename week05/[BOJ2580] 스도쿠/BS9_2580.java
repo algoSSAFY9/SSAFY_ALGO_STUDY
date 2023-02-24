@@ -59,7 +59,7 @@ public class BS9_2580 {
 		}
 
 		int[] a = blank.get(cnt);
-        int k = (a[0]/3)*3+a[1]/3;
+        	int k = (a[0]/3)*3+a[1]/3;
 		for(int j=1; j<=9; j++) {
 			if(row[a[0]][j]+col[a[1]][j]+block[k][j]==0) {
 				row[a[0]][j]=1;
