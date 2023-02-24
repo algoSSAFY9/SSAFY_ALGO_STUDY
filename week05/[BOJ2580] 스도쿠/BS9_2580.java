@@ -39,9 +39,6 @@ public class BS9_2580 {
 		ans=new int[COUNT];
 		
 		dfs(0);
-		
-		System.out.println(sb);
-		
 	}
 	
 	static void dfs(int cnt) {
@@ -57,20 +54,22 @@ public class BS9_2580 {
 				}
 				sb.append("\n");
 			}
-			return;
+            System.out.println(sb);
+			System.exit(0);
 		}
 
 		int[] a = blank.get(cnt);
+        int k = (a[0]/3)*3+a[1]/3;
 		for(int j=1; j<=9; j++) {
-			if(row[a[0]][j]+col[a[1]][j]+block[(a[0]/3)*3+a[1]/3][j]==0) {
+			if(row[a[0]][j]+col[a[1]][j]+block[k][j]==0) {
 				row[a[0]][j]=1;
 				col[a[1]][j]=1;
-				block[(a[0]/3)*3+a[1]/3][j]=1;
+				block[k][j]=1;
 				ans[cnt]=j;
 				dfs(cnt+1);
 				row[a[0]][j]=0;
 				col[a[1]][j]=0;
-				block[(a[0]/3)*3+a[1]/3][j]=0;
+				block[k][j]=0;
 			}
 		}
 		return;
