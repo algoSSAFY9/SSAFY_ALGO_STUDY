@@ -51,7 +51,6 @@ public class BS9_14889 {
 					sumB+=scores[temp2[i]][temp2[j]];
 				}
 			}
-			
 			min=Math.min(min, Math.abs(sumA-sumB));
 			return;
 		}
