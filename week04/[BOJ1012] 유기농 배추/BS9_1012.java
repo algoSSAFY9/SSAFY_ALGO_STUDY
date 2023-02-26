@@ -60,7 +60,6 @@ public class BS9_1012 {
 		if(y>0 && map[y-1][x]==1 && !visit[y-1][x]) { // ↑
 			dfs(y-1, x);
 		}
-		
 		return;
 	}
 }
