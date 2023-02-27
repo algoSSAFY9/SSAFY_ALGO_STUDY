@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class Main {
+
+	private static int N, col[], answer;
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		N = sc.nextInt();
+		col = new int[N + 1];
+		
+		setQueen(1);
+		System.out.println(answer);
+	}
+	
+	// rowNo: 놓으려고 하는 퀸의 행 번호
+	private static void setQueen(int rowNo) {
+		
+		// 유망한지 확인
+		if (!isAvailable(rowNo - 1)) {
+			
+			// 유망하지 않다면 가지치기
+			return;
+		}
+		
+		// 기저부분
+		if (rowNo > N) {
+			answer += 1;
+			return;
+		}
+		
+		for (int c = 1; c <= N; c++) {
+			col[rowNo] = c;
+			setQueen(rowNo + 1);
+		}
+	}
+
+	private static boolean isAvailable(int rowNo) {
+		
+		for (int k = 1; k < rowNo; k++) {  // k: 비교대상 퀸의 행
+			if (col[k] == col[rowNo]  // 같은 열이거나
+					|| Math.abs(col[k] - col[rowNo]) == rowNo - k) {  // 같은 대각선 상이면
+				// 퀸을 놓을 수 없다.
+				return false;
+			}
+		}
+		
+		return true;
+	}
+
+
+}
