@@ -33,3 +33,4 @@ git commit -m "Upload: 본인 이름 / 날짜 / [문제제목] / 시간"
 | 4 | 2023.02.13 ~ 2023.02.19 | 브루트포스, DFS, BFS | [브루트포스](https://www.acmicpc.net/step/22), [DFS, BFS](https://www.acmicpc.net/step/24) |
 | 5 | 2023.02.20 ~ 2023.02.26 | 분할 정복, 백트래킹 | [분할 정복](https://www.acmicpc.net/step/20), [백트래킹](https://www.acmicpc.net/step/34) |
 | 6 | 2023.02.27 ~ 2023.03.05 | SW 역랑테스트 대비 | |
+| 7 | 2023.03.06 ~ 2023.03.12 | CLASS 3 | [CLASS 3](https://github.com/algoSSAFY9/SSAFY_ALGO_STUDY/tree/main/week07) |
