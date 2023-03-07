@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.StringTokenizer;
 import java.util.TreeSet;
 
-public class Main {
+public class kh1764 {
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
