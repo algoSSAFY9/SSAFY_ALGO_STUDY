@@ -1,10 +1,5 @@
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.util.HashSet;
-import java.util.StringTokenizer;
-import java.util.TreeSet;
+import java.io.*;
+import java.util.*;
 
 public class kh1764 {
 
@@ -15,14 +10,11 @@ public class kh1764 {
 
         st = new StringTokenizer(br.readLine());
         int N = Integer.parseInt(st.nextToken()), M = Integer.parseInt(st.nextToken());
+        
+        HashSet<String> hs = new HashSet<>();
+        for (int n = 0; n < N; n++) hs.add(br.readLine());
 
         TreeSet<String> 듣보잡 = new TreeSet<>();
-        HashSet<String> hs = new HashSet<>();
-
-        for (int n = 0; n < N; n++) {
-            hs.add(br.readLine());
-        }
-
         for (int m = 0; m < M; m++) {
             String name = br.readLine();
             if (hs.contains(name)) 듣보잡.add(name);
