@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 import java.util.TreeSet;
 
-public class BJ_11723_ÁıÇÕ {
+public class BJ_11723_ÃÃ½Ã‡Ã• {
 
 	public static void main(String[] args) throws Exception {
 		TreeSet<Integer> set = new TreeSet<>();
@@ -46,7 +46,7 @@ public class BJ_11723_ÁıÇÕ {
 				break;
 			}
 		}
-		System.out.println(sb);
+		System.out.println(sb); 
 	}
 
 }
