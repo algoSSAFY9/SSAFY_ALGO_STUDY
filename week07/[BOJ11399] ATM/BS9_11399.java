@@ -21,7 +21,6 @@ public class BS9_11399 {
 		for(int i=0; i<N; i++) {
 			total+=list.get(i);
 		}
-		
 		int ans=total;
 		for(int i=N-1; i>=0; i--) {
 			total-=list.get(i);
