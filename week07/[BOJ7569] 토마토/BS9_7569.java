@@ -88,7 +88,6 @@ public class BS9_7569 {
 				total--;
 			}
 			
-			
 			if(cnt==0) {
 				cnt = queue.size();
 				ans++;
