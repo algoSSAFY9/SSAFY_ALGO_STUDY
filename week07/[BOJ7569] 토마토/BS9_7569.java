@@ -40,10 +40,8 @@ public class BS9_7569 {
 		
 		bfs();
 		
-		if(total==0)
-			System.out.println(ans-1);
-		else
-			System.out.println(-1);
+		if(total==0) System.out.println(ans-1);
+		else System.out.println(-1);
 	}
 	
 	static void bfs() {
