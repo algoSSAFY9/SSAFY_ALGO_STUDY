@@ -20,7 +20,6 @@ public class BS9_1541 {
 				break;
 			}
 		}
-		
 		int ans=0;
 		for(int i=0; i<minus; i++) {
 			ans+=Integer.parseInt(str[i]);
