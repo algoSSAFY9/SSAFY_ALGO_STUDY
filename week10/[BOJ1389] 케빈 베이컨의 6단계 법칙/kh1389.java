@@ -12,12 +12,11 @@ public class kh1389 {
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
 
-        int[][] dp = new int[N][N];
+        int[][] dp = new int[N][];
         for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                if (i != j) {
-                    dp[i][j] = N - 1;
-                }
+            dp[i] = new int[i];
+            for (int j = 0; j < i; j++) {
+                dp[i][j] = 6;
             }
         }
 
@@ -25,13 +24,28 @@ public class kh1389 {
             st = new StringTokenizer(br.readLine());
             int A = Integer.parseInt(st.nextToken()) - 1;
             int B = Integer.parseInt(st.nextToken()) - 1;
-            dp[A][B] = dp[B][A] = 1;
+
+            if (A < B) {
+                int tmp = A;
+                A = B;
+                B = tmp;
+            }
+
+            dp[A][B] = 1;
         }
 
         for (int k = 0; k < N; k++) {
-            for (int i = 0; i < N; i++) {
-                for (int j = 0; j < N; j++) {
+            for (int i = 0; i < k; i++) {
+                for (int j = 0; j < i; j++) {
+                    dp[i][j] = Math.min(dp[i][j], dp[k][i] + dp[k][j]);
+                }
+            }
+            for (int i = k + 1; i < N; i++) {
+                for (int j = 0; j < k; j++) {
                     dp[i][j] = Math.min(dp[i][j], dp[i][k] + dp[k][j]);
+                }
+                for (int j = k + 1; j < i; j++) {
+                    dp[i][j] = Math.min(dp[i][j], dp[i][k] + dp[j][k]);
                 }
             }
         }
@@ -39,9 +53,8 @@ public class kh1389 {
         int ans = -1, min = Integer.MAX_VALUE;
         for (int i = 0; i < N; i++) {
             int kb = 0;
-            for (int j = 0; j < N; j++) {
-                kb += dp[i][j];
-            }
+            for (int j = 0; j < i; j++) kb += dp[i][j];
+            for (int j = i + 1; j < N; j++) kb += dp[j][i];
 
             if (kb < min) {
                 ans = i;
