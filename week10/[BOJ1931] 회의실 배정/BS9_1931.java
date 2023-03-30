@@ -35,5 +35,4 @@ public class BS9_1931 {
 		}
 		System.out.println(cnt);
 	}
-
 }
