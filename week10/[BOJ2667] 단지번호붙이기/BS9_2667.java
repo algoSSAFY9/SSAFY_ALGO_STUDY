@@ -31,7 +31,6 @@ public class Main {
 		}
 		
 		Collections.sort(cntList);
-		
 		sb.append(cntList.size()).append("\n");
 		for(int c : cntList) sb.append(c).append("\n");
 		
