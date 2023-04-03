@@ -5,7 +5,7 @@ public class kh11403 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringBuilder sb = new StringBuilder();
         StringTokenizer st;
 
         int N = Integer.parseInt(br.readLine());
@@ -30,10 +30,10 @@ public class kh11403 {
 
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
-                bw.write(dp[i][j] + " ");
+                sb.append(dp[i][j]).append(" ");
             }
-            bw.newLine();
+            sb.append("\n");
         }
-        bw.flush();
+        System.out.println(sb);
     }
 }
