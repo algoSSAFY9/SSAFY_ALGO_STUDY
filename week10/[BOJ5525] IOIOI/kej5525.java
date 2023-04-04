@@ -38,7 +38,7 @@ public class kej5525 {
 				cnt++;
 				i += 1;
 			} else {
-				// ioi가 끝어졌으면
+				// ioi가 끊어졌으면
 				flag = 0;
 				cnt = 0;
 			}
