@@ -39,4 +39,4 @@ git commit -m "Upload: 본인 이름 / 날짜 / [문제제목] / 시간"
 | 10 | 2023.03.27 ~ 2023.04.02 | CLASS 3 | [CLASS 3](https://github.com/algoSSAFY9/SSAFY_ALGO_STUDY/tree/main/week10) |
 | 11 | 2023.04.03 ~ 2023.04.09 | 복습 | |
 | 11 | 2023.04.10 ~ 2023.04.16 | 복습 | |
-| 13 | 2023.04.17 ~ 2023.04.23 | 트라이, 세그먼트 트리 | [트라이, 세그먼트 트리](https://github.com/algoSSAFY9/SSAFY_ALGO_STUDY/tree/main/week13) |
+| 13 | 2023.04.17 ~ 2023.04.23 | 트라이, 세그먼트 트리 | [트라이](https://github.com/algoSSAFY9/SSAFY_ALGO_STUDY/tree/main/week13/trie), [세그먼트 트리](https://github.com/algoSSAFY9/SSAFY_ALGO_STUDY/tree/main/week13/segtree) |
